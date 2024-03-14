@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'SeH-CL';
-    src: url('../fonts/SeH-CL.woff2') format('woff2'),
-         url('../fonts/SeH-CL.woff') format('woff');
+    src: url('SeH-CL.woff2') format('woff2'),
+         url('SeH-CL.woff') format('woff');
 }
 body {
     font-family: 'SeH-CL', sans-serif;
