@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'SeH-CL';
-    src: url('SeH-CL.woff2') format('woff2'),
-         url('SeH-CL.woff') format('woff');
+    src: url('https://github.com/yellowboeing120/GlimmerMIndcareClinic.github.io/raw/main/fonts/SeH-CL.woff2') format('woff2'),
+         url('https://github.com/yellowboeing120/GlimmerMIndcareClinic.github.io/raw/main/fonts/SeH-CL.woff') format('woff');
 }
 body {
     font-family: 'SeH-CL', sans-serif;
