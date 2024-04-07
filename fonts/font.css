@@ -3,6 +3,17 @@
     src: url('SeH-CL.woff2') format('woff2'),
          url('SeH-CL.woff') format('woff');
 }
+
+@font-face {
+    font-family: 'SeH-CEB';
+    src: url('SeH-CEB.woff2') format('woff2'),
+         url('SeH-CEB.woff') format('woff');
+}
+
 body {
     font-family: 'SeH-CL', sans-serif;
+}
+
+h1 {
+    font-family: 'SeH-CEB', sans-serif;
 }
