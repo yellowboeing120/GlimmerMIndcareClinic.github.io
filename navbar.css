@@ -1,8 +1,21 @@
+:root {
+	--centered-text: 12px 94px;
+	--content-padding-left: 10px;
+	--padding-vertical: 20px;
+    --padding-horizontal: 63px;
+    --padding-horizontal-appointment: 17px;
+    --padding-vertical-appointment: 20px;
+}
+
 nav {
 	height: 95px;
+	width: 100%;
 	background-color: #c5afb7;
 	overflow: hidden;
 	border-bottom: 1px solid black;
+	position: fixed;
+	
+	top: 0;
 }
 
 ul {
@@ -26,7 +39,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 32px 94px;
+    padding: var(--centered-text);
     text-decoration: none;
     font-size: 28px;
 }
@@ -35,12 +48,61 @@ body {
 	margin: 0;
 }
 
-.content {
-	padding-left: 10px;
-	padding-top: 20px;
+h1 {
+	padding-left: var(--content-padding-left);
+	top: 106px;
 }
 
-.selected-container {
-	position: fixed;
-	transform: 50% -50%;
+.margin-top{
+	margin-top: 130px;
+}
+
+.content {
+	padding-left: var(--content-padding-left);
+}
+
+.background-image-selected {
+	background-image: url('photos/buldged-rectangle.svg');
+	background-repeat: no-repeat;
+	background-size: 210px;
+	background-position: center 70%;
+}
+
+.logo img {
+    top: -52px;
+    left: 41px;
+    position: fixed;
+    height: 190px;
+    width: auto;
+}
+
+.background-image {
+	background-image: none;
+}
+
+.background-image:hover {
+	background-image: url('photos/buldged-rectangle.svg');
+	background-repeat: no-repeat;
+	background-size: 210px;
+	background-position: center 70%;
+}
+
+.link {
+    display: block;
+    padding-top: var(--padding-vertical); 
+    padding-bottom: var(--padding-vertical); 
+    padding-left: var(--padding-horizontal);
+    padding-right: var(--padding-horizontal);
+}
+
+.link-appointment {
+    display: block;
+    padding-top: var(--padding-vertical-appointment); 
+    padding-bottom: var(--padding-vertical-appointment); 
+    padding-left: var(--padding-horizontal-appointment);
+    padding-right: var(--padding-horizontal-appointment);
+}
+
+.padding {
+	padding: var(--centered-text);
 }
