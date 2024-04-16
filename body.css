@@ -1,0 +1,37 @@
+:root {
+	--centered-text: 12px 94px;
+	--content-padding-left: 10px;
+	--padding-vertical: 20px;
+    --padding-horizontal: 63px;
+    --padding-horizontal-appointment: 17px;
+    --padding-vertical-appointment: 20px;
+}
+
+.margin-bottom{
+	margin-bottom: 500px;
+}
+
+body {
+	margin: 0;
+}
+
+.content1 {
+	padding-left: var(--content-padding-left);
+	font-size: 50px;
+}
+
+.alone-bro {
+	height: auto;
+	width: 600px;
+	float: right;
+}
+
+.centered {
+	text-align: center;
+}
+
+.button1-list {
+	display: inline;
+	padding: 0;
+	margin-right: 50px;
+}

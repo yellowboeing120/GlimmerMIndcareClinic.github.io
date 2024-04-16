@@ -8,7 +8,7 @@
 }
 
 hr {
-	margin-top: 500px;
+	margin-top: 700px;
 	height: 2px;
 }
 
@@ -32,7 +32,7 @@ hr {
 	margin-left: 80px;
 }
 
-img {
+.footer-img {
 	width: 90px;
 	height: auto;
 }
