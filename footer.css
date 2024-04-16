@@ -1,0 +1,61 @@
+:root {
+	--centered-text: 12px 94px;
+	--content-padding-left: 10px;
+	--padding-vertical: 20px;
+    --padding-horizontal: 63px;
+    --padding-horizontal-appointment: 17px;
+    --padding-vertical-appointment: 20px;
+}
+
+hr {
+	margin-top: 500px;
+	height: 2px;
+}
+
+.footer-content {
+	margin-top: 80px;
+	margin-left: 30px;
+	margin-right: 60px;
+	font-size: 30px;
+
+}
+
+.right {
+	text-align: center;
+	margin-right: 80px;
+	float: right;
+}
+
+.picture-container {
+	float: left;
+	left: 30px;
+	margin-left: 80px;
+}
+
+img {
+	width: 90px;
+	height: auto;
+}
+
+.footer-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-inline-list {
+	display: inline;
+	padding: 0;
+	margin-right: 50px;
+}
+
+.default-font {
+	font: Arial;
+	margin-top: 180px;
+	margin-bottom: 30px;
+	margin-left: 0;
+	margin-right: 0;
+	font-size: 15px;
+	text-align: center;
+	float: center;
+	z-index: 99;
+}

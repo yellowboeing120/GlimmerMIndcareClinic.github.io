@@ -39,7 +39,6 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: var(--centered-text);
     text-decoration: none;
     font-size: 28px;
 }
