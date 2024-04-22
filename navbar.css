@@ -14,7 +14,7 @@ nav {
 	overflow: hidden;
 	border-bottom: 1px solid black;
 	position: fixed;
-	
+	z-index: 9999999999;
 	top: 0;
 }
 
@@ -22,7 +22,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-right: 44px;
+    margin-right: 40px;
 }
 
 li {
@@ -44,7 +44,7 @@ li a {
 }
 
 .margin-top{
-	margin-top: 130px;
+	margin-top: 22px;
 }
 
 .background-image-selected {
@@ -90,5 +90,5 @@ li a {
 }
 
 .padding {
-	padding: var(--centered-text);
+	padding: 12px 24px;
 }
