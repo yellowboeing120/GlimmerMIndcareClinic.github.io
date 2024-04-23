@@ -282,7 +282,7 @@ body {
 
 .visitus {
 	text-align: center;
-	font-size: 30px;
+	font-size: 36px;
 }
 
 .mapflex {
@@ -313,30 +313,13 @@ body {
 
 .boxmap-container {
 	position: relative;
-	width: 99%;
+	width: 90%;
 	height: 800px;
 	margin: 0 auto;
 }
 
-
-
-.boxmap-container2 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	z-index: 3;
-}
-
-.boxmap-container2 .gps{
-	padding: 200px;
-}
-
-.gps .gps1{
-	padding-left: 70px;
-}
-
 .address {
-	font-size: 20px;
+	font-size: 26px;
 	text-align: center;
 }
 

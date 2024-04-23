@@ -54,6 +54,17 @@ body {
     align-items: center;
 }
 
+.subitem {
+    width: 100%;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
 @media screen and (max-width: 1000px) {
     .item {
         flex-basis: 100%;
@@ -65,7 +76,7 @@ body {
 }
 
 .centered {
-	font-size: 50px;
+	font-size: 40px;
 	text-align: center;
 	color: #ffff;
 }
@@ -115,4 +126,41 @@ body {
 	text-align: center;
 	font-size: 40px;
 	color: #fff;
+}
+
+.assistanceimg {
+    width: 60%;
+    height: auto;
+}
+
+.assistancecontainer {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-with-border {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    font-size: 25px;
+    background-color: rgba(0,205,255,0.88);
+    border: 2px solid black;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.margin1 {
+    margin-top: 120px;
+    width: 100%;
+    height: 1%;
+}
+
+.margin2 {
+    margin-top: 40px;
+    width: 100%;
+    height: 1%;
 }
