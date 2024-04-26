@@ -1,0 +1,105 @@
+:root {
+	--centered-text: 12px 94px;
+	--content-padding-left: 10px;
+	--padding-vertical: 20px;
+    --padding-horizontal: 63px;
+    --padding-horizontal-appointment: 17px;
+    --padding-vertical-appointment: 20px;
+}
+
+nav {
+	height: 95px;
+	width: 100%;
+	background-color: #c5afb7;
+	overflow: hidden;
+	border-bottom: 1px solid black;
+	position: fixed;
+	z-index: 9999999999;
+	top: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 40px;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	font-family: Arial;
+	text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.margin-top{
+	margin-top: 22px;
+}
+
+.background-image-selected {
+	background-image: url('photos/buldged-rectangle.svg');
+	background-repeat: no-repeat;
+	background-size: 205px;
+	background-position: center 70%;
+}
+
+.logo img {
+    top: -52px;
+    left: 41px;
+    position: fixed;
+    height: 190px;
+    width: auto;
+}
+
+.background-image {
+	background-image: none;
+}
+
+.background-image-signin {
+	background-image: none;
+}
+
+.background-image-signin:hover {
+	background-image: url('photos/buldged-rectangle.svg');
+	background-repeat: no-repeat;
+	background-size: 182px;
+	background-position: center 64%;
+}
+
+.background-image:hover {
+	background-image: url('photos/buldged-rectangle.svg');
+	background-repeat: no-repeat;
+	background-size: 205px;
+	background-position: center 70%;
+}
+
+.link {
+    display: block;
+    padding-top: var(--padding-vertical); 
+    padding-bottom: var(--padding-vertical); 
+    padding-left: var(--padding-horizontal);
+    padding-right: var(--padding-horizontal);
+}
+
+.link-appointment {
+    display: block;
+    padding-top: var(--padding-vertical-appointment); 
+    padding-bottom: var(--padding-vertical-appointment); 
+    padding-left: var(--padding-horizontal-appointment);
+    padding-right: var(--padding-horizontal-appointment);
+}
+
+.padding {
+	padding: 12px 24px;
+}
