@@ -50,7 +50,7 @@ li a {
 .background-image-selected {
 	background-image: url('photos/buldged-rectangle.svg');
 	background-repeat: no-repeat;
-	background-size: 210px;
+	background-size: 205px;
 	background-position: center 70%;
 }
 
@@ -66,10 +66,21 @@ li a {
 	background-image: none;
 }
 
+.background-image-signin {
+	background-image: none;
+}
+
+.background-image-signin:hover {
+	background-image: url('photos/buldged-rectangle.svg');
+	background-repeat: no-repeat;
+	background-size: 182px;
+	background-position: center 64%;
+}
+
 .background-image:hover {
 	background-image: url('photos/buldged-rectangle.svg');
 	background-repeat: no-repeat;
-	background-size: 210px;
+	background-size: 205px;
 	background-position: center 70%;
 }
 

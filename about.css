@@ -157,7 +157,6 @@ body {
 	height: 200px;
 	background-color: #D4C8E8;
 	cursor: pointer;
-	line-height: 10px;
 	padding-top: 20px;	
 	transition-duration: 0.1s;
 }
