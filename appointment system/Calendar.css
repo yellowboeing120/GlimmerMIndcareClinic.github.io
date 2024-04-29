@@ -1,0 +1,100 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.appointment-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive design */
+  @media only screen and (max-width: 600px) {
+   .appointment-container {
+      padding: 10px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+   .appointment-container {
+      padding: 5px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+}
+
+.container {
+    max-width: 600px;
+    background-color: #D9D9D966;
+    border-radius: 120px;
+    border: 1px solid black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 70%;
+    height: 100%;
+}
+
+h3 {
+    color: #333;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+.time-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+.times {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.times1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.time {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    margin: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.time:hover {
+    background-color: #F1EAAA;
+    border-radius: 50px;
+}
