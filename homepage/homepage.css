@@ -7,6 +7,24 @@
     --padding-vertical-appointment: 20px;
 }
 
+nav {
+    z-index: 99999;
+}
+
+.piecharts {
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.itemPIE {
+    flex-basis: 50%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+
 body {
 	top: 10px;
 	
@@ -138,12 +156,16 @@ body {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    height: 100vh; /* Full viewport height */
+    width: 100vw;
 }
 
 .text-with-border {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    height: 30%;
+    width:100%;
+    top: 80%;
+    left: 80%;
     transform: translate(-50%, -50%);
     padding: 20px;
     font-size: 25px;
@@ -151,6 +173,10 @@ body {
     border: 2px solid black;
     border-radius: 25px;
     box-sizing: border-box;
+}
+
+.textcenter {
+    text-align: center;
 }
 
 @media screen and (max-width: 1000px) {
